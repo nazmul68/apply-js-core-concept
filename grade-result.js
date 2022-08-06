@@ -27,12 +27,12 @@ function grade(marks){
     }
 
     else {
-        console.log("Your result is not Found");
+        return(console.log("Your result is not Found"));
     }
-    return;
+    
     
 }
 
-const inputMarks = 85;
+const inputMarks = 95;
 const outputGrade = grade(inputMarks);
 
